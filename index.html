@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./glide-3.4.1/dist/css/glide.core.min.css" />
+		<link rel="stylesheet" href="./glide-3.4.1/dist/css/glide.theme.min.css" />
+		<link href="./fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/scrollreveal"></script>
+	</head>
+	<body>
+		<canvas id="canvas1"></canvas>
+		<header class="container">
+			<nav>
+				<i class="fas fa-bars menu-btn"></i>
+				<ul class="menu">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="name">
+				<h3>Hello!</h3>
+				<h2 class="main-name">I'm Urszula Buczak</h2>
+				<h3>Junior Frontend Developer</h3>
+			</div>
+			<div class="read">
+				<button class="read-portfolio" aria-label="read portfolio">
+					<i class="fas fa-angle-double-down"></i>
+				</button>
+			</div>
+			<a href="#" class="go-home"><i class="fas fa-home"></i></a>
+		</header>
+		<section class="about" id="about">
+			<h2>About me</h2>
+			<p>
+				Hi! My name is Urszula Buczak. I am a student of the 1st year of the
+				master degree studies of Computer Science at University of Science and
+				Technology in Cracow.
+			</p>
+			<p>
+				I am a beginner frontend developer. For several months, I have been
+				systematically learning new front-end technologies and polishing the
+				knowledge already gained by creating websites. In each project, I try to
+				use new skills and make the website readable and functional for the
+				user.
+			</p>
+			<p>If you want to know more about me, don't hesitate to contact me.</p>
+		</section>
+		<section class="skills" id="skills">
+			<h2>Skills</h2>
+			<div class="glide">
+				<div class="glide__track" data-glide-el="track">
+					<ul class="glide__slides">
+						<li class="glide__slide">
+							<i class="fab fa-html5"></i>
+							<p>HTML5</p>
+							<p>I create projects with attention to HTML5 semantics.</p>
+						</li>
+						<li class="glide__slide">
+							<i class="fab fa-css3-alt"></i>
+							<p>CSS</p>
+							<p>CSS is responsible for the appearance of my pages.</p>
+						</li>
+						<li class="glide__slide">
+							<i class="fab fa-js"></i>
+							<p>JavaScript</p>
+							<p>I create all logic in JavaScript. I am using the ES 6+.</p>
+						</li>
+						<li class="glide__slide">
+							<i class="fab fa-react"></i>
+							<p>React</p>
+							<p>I am in the process of learning React and Redux.</p>
+						</li>
+						<li class="glide__slide">
+							<i class="fab fa-node-js"></i>
+							<p>Node.js</p>
+							<p>
+								I am in the process of learning Node.js to create own backend.
+							</p>
+						</li>
+						<li class="glide__slide">
+							<i class="fas fa-code-branch"></i>
+							<p>Git</p>
+							<p>I use git for easier tracking of changes in a project.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="glide__arrows" data-glide-el="controls">
+					<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+						<
+					</button>
+					<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+						>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<img src="./img/saper.PNG" alt="" />
+				<div class="project-about">
+					<h3>Minesweeper</h3>
+					<p>
+						Simple game. The object of the game is to avoid detonating the
+						hidden mines by placing flags in their place using the hints for the
+						number of adjacent mines in each field. Technologies used: HTML,
+						CSS, JavaScript.
+					</p>
+					<a href="https://github.com/Ulaa93/minesweeper">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://ulaa93.github.io/minesweeper">
+						<i class="fas fa-eye"></i>
+					</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./img/result.PNG" alt="" />
+				<div class="project-about">
+					<h3>Rock Paper Scissors</h3>
+					<p>
+						Simple game. The user selects one of the options, the computer
+						randomly selects the opponent and the screen records these choices
+						and counts wins, draws and losses. Technologies used: HTML, CSS,
+						JavaScript.
+					</p>
+					<a href="https://github.com/Ulaa93/rock-paper-scissors">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://ulaa93.github.io/Rock-Paper-Scissors">
+						<i class="fas fa-eye"></i>
+					</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./img/hotel-zanzibar.PNG" alt="" />
+				<div class="project-about">
+					<h3>Hotel Zanzibar</h3>
+					<p>
+						An example of a simple hotel page. In addition, guests can view
+						events taking place in the area taken from eventful. Technologies
+						used: HTML, CSS, JavaScript.
+					</p>
+					<a href="https://github.com/Ulaa93/Hotel-Zanzibar">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://ulaa93.github.io/Hotel-Zanzibar">
+						<i class="fas fa-eye"></i>
+					</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./img/nowe zadanie1.jpg" alt="" />
+				<div class="project-about">
+					<h3>To Do List</h3>
+					<p>
+						Group project in which the user, after creating an account and
+						logging in, can add new tasks, cancel completed or delete them. In
+						this project, I was responsible for the structure and appearance of
+						the website. Technologies used: HTML, CSS.
+					</p>
+					<a href="https://github.com/codersCampKiwiTeam/toDoList">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://coderscampkiwiteam.github.io/toDoList/?">
+						<i class="fas fa-eye"></i>
+					</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./img/weather.png" alt="" />
+				<div class="project-about">
+					<h3>Weather App</h3>
+					<p>
+						A weather application created in a group as part of the CodersCamp
+						course. In this project, I was jointly responsible for the logic of
+						the website. Languages used: JavaScript.
+					</p>
+					<a href="https://github.com/codersCampKiwiTeam/Weather-App">
+						<i class="fab fa-github"></i>
+					</a>
+					<a href="https://coderscampkiwiteam.github.io/Weather-App/">
+						<i class="fas fa-eye"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<h2>Contact</h2>
+			<form method="post" action="https://formspree.io/f/meqvqqog">
+				<label for="name">Name:</label>
+				<input name="name" type="text" required />
+				<label for="email">Email:</label>
+				<input name="email" type="email" required />
+				<label for="message">Type your message</label>
+				<textarea
+					name="message"
+					id="message"
+					cols="30"
+					rows="10"
+					required
+				></textarea>
+				<input class="submit-btn" type="submit" value="Send" />
+			</form>
+			<div class="contact-info">
+				<div>
+					<a href="mailto:urszulabuczak0@gmail.com">
+						<i class="far fa-envelope"></i>
+						<span>urszulabuczak0@gmail.com</span>
+					</a>
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/in/urszula-buczak/">
+						<i class="fab fa-linkedin-in"></i>
+						<span>www.linkedin.com/in/urszula-buczak</span>
+					</a>
+				</div>
+				<div>
+					<a href="https://github.com/Ulaa93?tab=repositories">
+						<i class="fab fa-github"></i>
+						<span>www.github.com/Ulaa93</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Copyright © Urszula Buczak 2021</p>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+		<script src="./canvas.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
